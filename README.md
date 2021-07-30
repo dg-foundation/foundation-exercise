@@ -51,7 +51,7 @@ The only requirement for this project is that Docker be installed on your machin
 Now you can navigate to the available endpoints to make queries. You could use a tool such as Restlet or Postman. E.g. `http://localhost:8080/mbta/routes` will provide a list of all MBTA subway routes.
 
 ## Javadoc
-Javadoc jar files have been provided for both `mbta-data` and `mbta-service` apps. In the `mbta-service` app, navigate to `MbtaController.java`. This provides the Javadoc for the REST endpoints that can be used to interrogate the data.
+Javadoc jar files have been provided in the javadoc directory. There are separate jar files for the `mbta-data` and `mbta-service` apps. In the `mbta-service` app, navigate to `MbtaController.java`. This provides the Javadoc for the REST endpoints that can be used to interrogate the data.
 
 ## Improvements  
 This is a very basic implementation, there are many things to improve. Note for small matters, there are TODOs that have been left in the code.
