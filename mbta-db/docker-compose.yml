@@ -1,0 +1,21 @@
+version: '3'
+ 
+services:
+
+  db:
+    image: mysql:5.7
+    container_name: mbta-db
+    environment:
+      MYSQL_ROOT_PASSWORD: mbta_root_pass
+      MYSQL_DATABASE: mbta_app_db
+      MYSQL_USER: mbta_user
+      MYSQL_PASSWORD: mbta_user_pass
+
+    ports:
+      - "6033:3306"
+    volumes:
+      - ./data/db:/var/lib/mysql
+
+networks:
+  default:
+      name: mbta-network

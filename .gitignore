@@ -1,0 +1,11 @@
+
+mbta-data/.idea/*
+mbta-service/.idea/*
+mbta-data/mbta-data.iml
+mbta-service/target/*
+mbta-data/target/*
+
+mbta-service/mbta-service.iml
+*.iml
+mbta-service/mbta-service.iml
+*.iml
