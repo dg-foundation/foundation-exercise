@@ -72,5 +72,6 @@ This is a very basic implementation, there are many things to improve. Note for 
 10. In the `mbta-service` app, the repository layer typically returns lists of Objects. Custom classes could be created instead which map the results from the database.
 11. There are several native SQL queries in `mbta-service`. If performance is an issue, these could be converted to Stored Procedures that are kept at the database itself.
 12. There is a remaining use case from the problem sheet this is TBD.
+13. Implement a proper branching strategy on github.
 
 
