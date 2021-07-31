@@ -2,7 +2,7 @@
 
 ## Introduction  
 This project involves downloading and querying MBTA data. It is written in SpringBoot, and uses MySQL and Docker.
-There are 3 parts to the application
+There are a few parts to the application
  - **mbta-db**
 This contains the data for a Docker Volume. It has all the downloaded data. It also has files :
 	- `create_tables.txt` : Contains SQL for generating the db tables should you wish to do so manually.
@@ -13,6 +13,9 @@ This contains the data for a Docker Volume. It has all the downloaded data. It a
   
 - **mbta-service**
   This app is a webservice with endpoints providing MBTA information. There are endpoints for specific use cases. Information is obtained by querying the mbta database that was populated by the `mbta-data` app. I have mostly used native SQL queries to retrieve the data.
+  
+- **javadoc**
+This is a directory which has jar files containing javadoc for for 2 prjects.
   
 ## Install and deploy
 The only requirement for this project is that Docker be installed on your machine.
