@@ -18,7 +18,7 @@ This contains the data for a Docker Volume. It has all the downloaded data. It a
 This is a directory which has jar files containing javadoc for for 2 prjects.
   
 ## Install and deploy
-The only requirement for this project is that Docker be installed on your machine.
+The only requirement for this project is that Docker and Docker Compose be installed on your machine.
 
 1. Download the code in this Github repo to a location on your machine.
 
