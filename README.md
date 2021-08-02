@@ -67,7 +67,7 @@ This is a very basic implementation, there are many things to improve. Note for 
  7. Variables need to be extracted to a properties file.
  8. Style checking and static code analysis should be part of the build e.g. `PMD, Checkstyle`
  9. The unit tests at the moment are scanty. They need to be fleshed out. `Jacoco` or some such unit test coverage tool should be incorporated in the build.
- 10. Integration tests are needed. This could be setup using a separate Docker instance which would spin up it's own MySQL database. Thus, tests could be conducted without intering with the application database.
+ 10. Integration tests are needed. This could be setup using a separate Docker instance which would spin up it's own MySQL database. Thus, tests could be conducted without interfering with the application database.
  11. `MbtaAPIReader.java`
 	 - The code needs to be reactive, at the moment it is a synchronous application.
 	 - Paging needs to implemented when querying the API.
