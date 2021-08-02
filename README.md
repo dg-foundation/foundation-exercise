@@ -15,7 +15,7 @@ This contains the data for a Docker Volume. It has all the downloaded data. It a
   This app is a webservice with endpoints providing MBTA information. There are endpoints for specific use cases. Information is obtained by querying the mbta database that was populated by the `mbta-data` app. I have mostly used native SQL queries to retrieve the data.
   
 - **javadoc**
-This is a directory which has jar files containing javadoc for for 2 prjects.
+This is a directory which has jar files containing javadoc for the 2 projects.
   
 ## Install and deploy
 The only requirement for this project is that Docker and Docker Compose be installed on your machine.
