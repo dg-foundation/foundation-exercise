@@ -22,14 +22,14 @@ The only requirement for this project is that Docker and Docker Compose be insta
 
 1. Download the code in this Github repo to a location on your machine.
 
-2. Start the database and create a Docker network. In your Unix (or Unix-ish) command line, navigate to 
+2. Start the database and create a Docker network. In your Unix (or Unix-ish) command line, navigate to ( project-dir is the root directory of this project )
     ```
     $ cd <project-dir>/mbta-db
     $ docker-compose up -d
     ```
     This will load up the data in the `mbta-db` directory. Also, it creates a Docker Network called `mbta-network`.
 
-3. If you want to reload the MBTA API data, build and run the `mbta-data` app. From your command line, execute the following commands - ( project-dir is the root directory of this project )
+3. If you want to reload the MBTA API data, build and run the `mbta-data` app. From your command line, execute the following commands - 
      ```
     $ cd <project-dir>/mbta-data
     
@@ -41,7 +41,7 @@ The only requirement for this project is that Docker and Docker Compose be insta
     ```
 	This will run the application to fetch the latest data.
 	
-4. Next you can build and deploy the `mbta-service` app. From your command line, execute the following commands - ( project-dir is the root directory of this project )
+4. Next you can build and deploy the `mbta-service` app. From your command line, execute the following commands - 
      ```
     $ cd <project-dir>/mbta-service
     
