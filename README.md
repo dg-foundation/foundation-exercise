@@ -6,7 +6,7 @@ There are a few parts to the application
  - **mbta-db**
 This contains the data for a Docker Volume. It has all the downloaded data. It also has files :
 	- `create_tables.txt` : Contains SQL for generating the db tables should you wish to do so manually.
-	- `docker-compose.yml` : Dockerfile for bringing up the database.
+	- `docker-compose.yml` : Docker compose file for bringing up the database.
 
 - **mbta-data**
   This project loads the data from the MBTA API. For each of Line, Route, Stop, and Facility entities, it invokes the relevant endpoints, parses out the data it needs, and persists it to the Docker database. It can be run independently whenever you wish to refresh the data.
